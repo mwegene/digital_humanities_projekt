@@ -1,4 +1,4 @@
-
+#Installationen
 cwbtools::corpus_install(doi = "10.5281/zenodo.12794676")
 install.packages("polmineR")
 library(polmineR)
@@ -12,11 +12,11 @@ library(slam)
 library(DT)
 library(LDAvis)
 library(tsne)
-library(quanteda)
 install.packages("quanteda.textmodels@0.9.1")
 install.packages("topicmodels")
 install.packages("ldatuning")
 library("ldatuning")
+library(quanteda)
 use("polmineR")
 
 # Eingrenzung der Daten
